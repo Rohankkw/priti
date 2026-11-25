@@ -1,0 +1,170 @@
+{
+  "draft": false,
+  "allowUncovered": true,
+  "regions": [
+    {
+      "id": "hero-backdrop",
+      "kind": "image",
+      "bleed": true,
+      "pixelBox": { "x": 0, "y": 0, "w": 1376, "h": 706 },
+      "note": "Full-bleed dusk panoramic photograph of Udaipur City Palace reflected in Lake Pichola under deep midnight navy sky"
+    },
+    {
+      "id": "nav-brand",
+      "kind": "chrome",
+      "pixelBox": { "x": 64, "y": 26, "w": 230, "h": 48 },
+      "note": "Gold circular compass emblem and PRITI TRAVELS HUB uppercase condensed brand wordmark"
+    },
+    {
+      "id": "nav-links",
+      "kind": "text",
+      "pixelBox": { "x": 384, "y": 36, "w": 608, "h": 30 },
+      "note": "Top navigation links: Home Destinations Packages Experiences Offers Contact"
+    },
+    {
+      "id": "nav-search-btn",
+      "kind": "control",
+      "pixelBox": { "x": 1114, "y": 32, "w": 36, "h": 36 },
+      "note": "Magnifying glass search icon trigger button"
+    },
+    {
+      "id": "nav-cta",
+      "kind": "control",
+      "pixelBox": { "x": 1166, "y": 28, "w": 142, "h": 44 },
+      "note": "Rounded sunset saffron pill CTA button labeled Plan My Trip"
+    },
+    {
+      "id": "hero-hairline",
+      "kind": "chrome",
+      "pixelBox": { "x": 76, "y": 210, "w": 6, "h": 315 },
+      "note": "Thin vertical sunset saffron editorial hairline framing the left hero block"
+    },
+    {
+      "id": "hero-location",
+      "kind": "text",
+      "pixelBox": { "x": 112, "y": 214, "w": 196, "h": 32 },
+      "note": "Warm gold location label reading Rajasthan · India"
+    },
+    {
+      "id": "hero-title",
+      "kind": "text",
+      "pixelBox": { "x": 110, "y": 252, "w": 374, "h": 112 },
+      "note": "Monumental tall condensed uppercase off-white headline reading UDAIPUR"
+    },
+    {
+      "id": "hero-desc",
+      "kind": "text",
+      "pixelBox": { "x": 110, "y": 372, "w": 436, "h": 70 },
+      "note": "Two-line editorial description: Marble palaces rising from mirror waters as twilight paints the Aravallis in warm gold."
+    },
+    {
+      "id": "hero-bookmark",
+      "kind": "control",
+      "pixelBox": { "x": 112, "y": 460, "w": 60, "h": 60 },
+      "note": "Circular frosted glass bookmark icon button"
+    },
+    {
+      "id": "hero-discover-btn",
+      "kind": "control",
+      "pixelBox": { "x": 184, "y": 460, "w": 218, "h": 60 },
+      "note": "Outline pill CTA button reading Discover Location"
+    },
+    {
+      "id": "card-kerala-img",
+      "kind": "image",
+      "bleed": true,
+      "pixelBox": { "x": 758, "y": 170, "w": 162, "h": 366 },
+      "note": "Portrait photograph of a traditional wooden houseboat gliding across emerald Kerala backwaters framed inside rounded glass border"
+    },
+    {
+      "id": "card-kerala-label",
+      "kind": "text",
+      "pixelBox": { "x": 766, "y": 492, "w": 84, "h": 32 },
+      "note": "White destination label reading Kerala on bottom-left of first carousel card"
+    },
+    {
+      "id": "card-himachal-img",
+      "kind": "image",
+      "bleed": true,
+      "pixelBox": { "x": 950, "y": 197, "w": 150, "h": 324 },
+      "note": "Portrait photograph of mist-draped snow-capped Himalayan mountain peaks in Himachal Pradesh framed inside rounded glass border"
+    },
+    {
+      "id": "card-himachal-label",
+      "kind": "text",
+      "pixelBox": { "x": 958, "y": 452, "w": 112, "h": 58 },
+      "note": "Two-line white destination label reading Himachal Pradesh on second carousel card"
+    },
+    {
+      "id": "card-goa-img",
+      "kind": "image",
+      "bleed": true,
+      "pixelBox": { "x": 1130, "y": 223, "w": 140, "h": 286 },
+      "note": "Portrait photograph of palm-fringed golden sandy beach and turquoise waves in Goa framed inside rounded glass border"
+    },
+    {
+      "id": "card-goa-label",
+      "kind": "text",
+      "pixelBox": { "x": 1138, "y": 470, "w": 58, "h": 30 },
+      "note": "White destination label reading Goa on third carousel card"
+    },
+    {
+      "id": "card-ladakh-img",
+      "kind": "image",
+      "bleed": true,
+      "pixelBox": { "x": 1299, "y": 238, "w": 77, "h": 268 },
+      "note": "Portrait photograph of high-altitude turquoise Pangong lake and barren mountains in Ladakh framed inside rounded glass border"
+    },
+    {
+      "id": "card-ladakh-label",
+      "kind": "text",
+      "pixelBox": { "x": 1306, "y": 472, "w": 66, "h": 28 },
+      "note": "White destination label reading Ladakh on fourth carousel card"
+    },
+    {
+      "id": "carousel-prev",
+      "kind": "control",
+      "pixelBox": { "x": 750, "y": 564, "w": 48, "h": 48 },
+      "note": "Circular frosted glass previous-slide arrow button"
+    },
+    {
+      "id": "carousel-next",
+      "kind": "control",
+      "pixelBox": { "x": 806, "y": 564, "w": 48, "h": 48 },
+      "note": "Circular frosted glass next-slide arrow button"
+    },
+    {
+      "id": "carousel-progress",
+      "kind": "chrome",
+      "pixelBox": { "x": 874, "y": 580, "w": 298, "h": 16 },
+      "note": "Thin horizontal carousel progress line with active sunset saffron segment"
+    },
+    {
+      "id": "carousel-counter",
+      "kind": "text",
+      "pixelBox": { "x": 1188, "y": 558, "w": 122, "h": 62 },
+      "note": "Large condensed slide counter reading 01 / 09"
+    },
+    {
+      "id": "search-dock",
+      "kind": "control",
+      "container": true,
+      "pixelBox": { "x": 296, "y": 662, "w": 784, "h": 76 },
+      "note": "Dark frosted-glass Quick Search Bar container overlapping hero bottom and off-white band"
+    },
+    {
+      "id": "search-fields",
+      "kind": "text",
+      "parentId": "search-dock",
+      "pixelBox": { "x": 316, "y": 676, "w": 588, "h": 48 },
+      "note": "Segmented search bar inputs labeled Destination, Dates, Travellers, and Budget"
+    },
+    {
+      "id": "search-submit",
+      "kind": "control",
+      "parentId": "search-dock",
+      "pixelBox": { "x": 912, "y": 670, "w": 158, "h": 58 },
+      "note": "Rounded sunset saffron Find Trips submit button inside search bar"
+    }
+  ]
+}

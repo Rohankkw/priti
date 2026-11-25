@@ -1,0 +1,1971 @@
+{
+  "tool": "comp-spec inspect-map",
+  "version": 1,
+  "referenceOnly": true,
+  "stateChanged": false,
+  "comp": ".impeccable/mocks/comp-3.png",
+  "compSize": {
+    "width": 1376,
+    "height": 768
+  },
+  "inputRegionCount": 26,
+  "regions": [
+    {
+      "id": "hero-backdrop",
+      "kind": "image",
+      "note": "Full-bleed dusk panoramic photograph of Udaipur City Palace reflected in Lake Pichola under deep midnight navy sky",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.9193
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1376,
+        "h": 706
+      },
+      "aspect": 1.949,
+      "palette": [
+        {
+          "hex": "#11161b",
+          "coverage": 0.4757
+        },
+        {
+          "hex": "#21344d",
+          "coverage": 0.3351
+        },
+        {
+          "hex": "#3e291d",
+          "coverage": 0.0927
+        },
+        {
+          "hex": "#f2f4f4",
+          "coverage": 0.0483
+        },
+        {
+          "hex": "#bfd1e1",
+          "coverage": 0.0483
+        }
+      ],
+      "detail": {
+        "energy": 29.0506
+      },
+      "medium": "raster",
+      "plate": "assets/plates/hero-backdrop.png",
+      "text": null,
+      "number": 1,
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 181498,
+        "totalPixels": 971456,
+        "remainingPixels": 789958,
+        "excludedFraction": 0.18683090124514132,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "nav-brand",
+            "kind": "chrome",
+            "cropPx": {
+              "x": 64,
+              "y": 26,
+              "w": 230,
+              "h": 48
+            },
+            "pixels": 11040
+          },
+          {
+            "id": "nav-links",
+            "kind": "text",
+            "cropPx": {
+              "x": 388,
+              "y": 36,
+              "w": 602,
+              "h": 30
+            },
+            "pixels": 18060
+          },
+          {
+            "id": "nav-search-btn",
+            "kind": "control",
+            "cropPx": {
+              "x": 1114,
+              "y": 32,
+              "w": 36,
+              "h": 36
+            },
+            "pixels": 1296
+          },
+          {
+            "id": "nav-cta",
+            "kind": "control",
+            "cropPx": {
+              "x": 1166,
+              "y": 28,
+              "w": 142,
+              "h": 44
+            },
+            "pixels": 6248
+          },
+          {
+            "id": "hero-hairline",
+            "kind": "chrome",
+            "cropPx": {
+              "x": 76,
+              "y": 210,
+              "w": 6,
+              "h": 315
+            },
+            "pixels": 1890
+          },
+          {
+            "id": "hero-location",
+            "kind": "text",
+            "cropPx": {
+              "x": 112,
+              "y": 214,
+              "w": 196,
+              "h": 32
+            },
+            "pixels": 6272
+          },
+          {
+            "id": "hero-title",
+            "kind": "text",
+            "cropPx": {
+              "x": 112,
+              "y": 254,
+              "w": 364,
+              "h": 108
+            },
+            "pixels": 39312
+          },
+          {
+            "id": "hero-desc",
+            "kind": "text",
+            "cropPx": {
+              "x": 112,
+              "y": 374,
+              "w": 430,
+              "h": 66
+            },
+            "pixels": 28380
+          },
+          {
+            "id": "hero-bookmark",
+            "kind": "control",
+            "cropPx": {
+              "x": 112,
+              "y": 460,
+              "w": 60,
+              "h": 60
+            },
+            "pixels": 3600
+          },
+          {
+            "id": "hero-discover-btn",
+            "kind": "control",
+            "cropPx": {
+              "x": 184,
+              "y": 460,
+              "w": 218,
+              "h": 60
+            },
+            "pixels": 13080
+          },
+          {
+            "id": "card-kerala-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 766,
+              "y": 492,
+              "w": 84,
+              "h": 32
+            },
+            "pixels": 2688
+          },
+          {
+            "id": "card-himachal-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 958,
+              "y": 452,
+              "w": 112,
+              "h": 58
+            },
+            "pixels": 6496
+          },
+          {
+            "id": "card-goa-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 1138,
+              "y": 470,
+              "w": 58,
+              "h": 30
+            },
+            "pixels": 1740
+          },
+          {
+            "id": "card-ladakh-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 1306,
+              "y": 472,
+              "w": 66,
+              "h": 28
+            },
+            "pixels": 1848
+          },
+          {
+            "id": "carousel-prev",
+            "kind": "control",
+            "cropPx": {
+              "x": 750,
+              "y": 564,
+              "w": 48,
+              "h": 48
+            },
+            "pixels": 2304
+          },
+          {
+            "id": "carousel-next",
+            "kind": "control",
+            "cropPx": {
+              "x": 806,
+              "y": 564,
+              "w": 48,
+              "h": 48
+            },
+            "pixels": 2304
+          },
+          {
+            "id": "carousel-progress",
+            "kind": "chrome",
+            "cropPx": {
+              "x": 874,
+              "y": 580,
+              "w": 298,
+              "h": 16
+            },
+            "pixels": 4768
+          },
+          {
+            "id": "carousel-counter",
+            "kind": "text",
+            "cropPx": {
+              "x": 1188,
+              "y": 560,
+              "w": 118,
+              "h": 58
+            },
+            "pixels": 6844
+          },
+          {
+            "id": "search-fields",
+            "kind": "text",
+            "cropPx": {
+              "x": 316,
+              "y": 676,
+              "w": 588,
+              "h": 30
+            },
+            "pixels": 17640
+          },
+          {
+            "id": "search-submit",
+            "kind": "control",
+            "cropPx": {
+              "x": 912,
+              "y": 670,
+              "w": 158,
+              "h": 36
+            },
+            "pixels": 5688
+          }
+        ],
+        "ignoredContainers": [
+          "search-dock"
+        ]
+      },
+      "cropPath": "region-1.png",
+      "referencePath": "reference-1.png"
+    },
+    {
+      "id": "nav-brand",
+      "kind": "chrome",
+      "note": "Gold circular compass emblem and PRITI TRAVELS HUB uppercase condensed brand wordmark",
+      "grid": null,
+      "box": {
+        "x": 0.0465,
+        "y": 0.0339,
+        "w": 0.1672,
+        "h": 0.0625
+      },
+      "px": {
+        "x": 64,
+        "y": 26,
+        "w": 230,
+        "h": 48
+      },
+      "aspect": 4.7917,
+      "palette": [
+        {
+          "hex": "#09192d",
+          "coverage": 0.7246
+        },
+        {
+          "hex": "#f4f5f7",
+          "coverage": 0.0939
+        },
+        {
+          "hex": "#0f1413",
+          "coverage": 0.0816
+        },
+        {
+          "hex": "#3e464f",
+          "coverage": 0.0579
+        },
+        {
+          "hex": "#787d86",
+          "coverage": 0.0421
+        }
+      ],
+      "detail": {
+        "energy": 53.8989
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 2,
+      "cropPath": "region-2.png"
+    },
+    {
+      "id": "nav-links",
+      "kind": "text",
+      "note": "Top navigation links: Home Destinations Packages Experiences Offers Contact",
+      "grid": null,
+      "box": {
+        "x": 0.282,
+        "y": 0.0469,
+        "w": 0.4375,
+        "h": 0.0391
+      },
+      "px": {
+        "x": 388,
+        "y": 36,
+        "w": 602,
+        "h": 30
+      },
+      "aspect": 20.0667,
+      "palette": [
+        {
+          "hex": "#193452",
+          "coverage": 0.8458
+        },
+        {
+          "hex": "#ecf6f8",
+          "coverage": 0.0539
+        },
+        {
+          "hex": "#465667",
+          "coverage": 0.0418
+        },
+        {
+          "hex": "#8594a4",
+          "coverage": 0.0403
+        },
+        {
+          "hex": "#b7c6d6",
+          "coverage": 0.0181
+        }
+      ],
+      "detail": {
+        "energy": 45.8374
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 3,
+      "cropPath": "region-3.png"
+    },
+    {
+      "id": "nav-search-btn",
+      "kind": "control",
+      "note": "Magnifying glass search icon trigger button",
+      "grid": null,
+      "box": {
+        "x": 0.8096,
+        "y": 0.0417,
+        "w": 0.0262,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 1114,
+        "y": 32,
+        "w": 36,
+        "h": 36
+      },
+      "aspect": 1,
+      "palette": [
+        {
+          "hex": "#1b3653",
+          "coverage": 0.8889
+        },
+        {
+          "hex": "#edf5f5",
+          "coverage": 0.0417
+        },
+        {
+          "hex": "#d0dded",
+          "coverage": 0.0417
+        },
+        {
+          "hex": "#586878",
+          "coverage": 0.0278
+        }
+      ],
+      "detail": {
+        "energy": 6.6526
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 4,
+      "cropPath": "region-4.png"
+    },
+    {
+      "id": "nav-cta",
+      "kind": "control",
+      "note": "Rounded sunset saffron pill CTA button labeled Plan My Trip",
+      "grid": null,
+      "box": {
+        "x": 0.8474,
+        "y": 0.0365,
+        "w": 0.1032,
+        "h": 0.0573
+      },
+      "px": {
+        "x": 1166,
+        "y": 28,
+        "w": 142,
+        "h": 44
+      },
+      "aspect": 3.2273,
+      "palette": [
+        {
+          "hex": "#f89a3b",
+          "coverage": 0.7343
+        },
+        {
+          "hex": "#eaa55b",
+          "coverage": 0.1022
+        },
+        {
+          "hex": "#634728",
+          "coverage": 0.0645
+        },
+        {
+          "hex": "#223340",
+          "coverage": 0.0566
+        },
+        {
+          "hex": "#2f0d08",
+          "coverage": 0.0425
+        }
+      ],
+      "detail": {
+        "energy": 19.4504
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 5,
+      "cropPath": "region-5.png"
+    },
+    {
+      "id": "hero-hairline",
+      "kind": "chrome",
+      "note": "Thin vertical sunset saffron editorial hairline framing the left hero block",
+      "grid": null,
+      "box": {
+        "x": 0.0552,
+        "y": 0.2734,
+        "w": 0.0044,
+        "h": 0.4102
+      },
+      "px": {
+        "x": 76,
+        "y": 210,
+        "w": 6,
+        "h": 315
+      },
+      "aspect": 0.019,
+      "palette": [
+        {
+          "hex": "#08131f",
+          "coverage": 0.5095
+        },
+        {
+          "hex": "#160808",
+          "coverage": 0.4905
+        }
+      ],
+      "detail": {
+        "energy": 1.4448
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": true
+      },
+      "number": 6,
+      "cropPath": "region-6.png"
+    },
+    {
+      "id": "hero-location",
+      "kind": "text",
+      "note": "Warm gold location label reading Rajasthan · India",
+      "grid": null,
+      "box": {
+        "x": 0.0814,
+        "y": 0.2786,
+        "w": 0.1424,
+        "h": 0.0417
+      },
+      "px": {
+        "x": 112,
+        "y": 214,
+        "w": 196,
+        "h": 32
+      },
+      "aspect": 6.125,
+      "palette": [
+        {
+          "hex": "#161c2a",
+          "coverage": 0.6539
+        },
+        {
+          "hex": "#1d160a",
+          "coverage": 0.1179
+        },
+        {
+          "hex": "#cfb278",
+          "coverage": 0.098
+        },
+        {
+          "hex": "#181838",
+          "coverage": 0.0796
+        },
+        {
+          "hex": "#a7936b",
+          "coverage": 0.0505
+        }
+      ],
+      "detail": {
+        "energy": 40.5836
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 7,
+      "cropPath": "region-7.png"
+    },
+    {
+      "id": "hero-title",
+      "kind": "text",
+      "note": "Monumental tall condensed uppercase off-white headline reading UDAIPUR",
+      "grid": null,
+      "box": {
+        "x": 0.0814,
+        "y": 0.3307,
+        "w": 0.2645,
+        "h": 0.1406
+      },
+      "px": {
+        "x": 112,
+        "y": 254,
+        "w": 364,
+        "h": 108
+      },
+      "aspect": 3.3704,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.4416
+        },
+        {
+          "hex": "#151a27",
+          "coverage": 0.4198
+        },
+        {
+          "hex": "#2c1f1d",
+          "coverage": 0.0901
+        },
+        {
+          "hex": "#75797c",
+          "coverage": 0.0278
+        },
+        {
+          "hex": "#583a27",
+          "coverage": 0.0206
+        }
+      ],
+      "detail": {
+        "energy": 49.801
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 8,
+      "cropPath": "region-8.png"
+    },
+    {
+      "id": "hero-desc",
+      "kind": "text",
+      "note": "Two-line editorial description: Marble palaces rising from mirror waters as twilight paints the Aravallis in warm gold.",
+      "grid": null,
+      "box": {
+        "x": 0.0814,
+        "y": 0.487,
+        "w": 0.3125,
+        "h": 0.0859
+      },
+      "px": {
+        "x": 112,
+        "y": 374,
+        "w": 430,
+        "h": 66
+      },
+      "aspect": 6.5152,
+      "palette": [
+        {
+          "hex": "#101114",
+          "coverage": 0.7723
+        },
+        {
+          "hex": "#f1f1f1",
+          "coverage": 0.0825
+        },
+        {
+          "hex": "#353230",
+          "coverage": 0.0628
+        },
+        {
+          "hex": "#402a19",
+          "coverage": 0.0468
+        },
+        {
+          "hex": "#b4b3b6",
+          "coverage": 0.0356
+        }
+      ],
+      "detail": {
+        "energy": 77.3981
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 9,
+      "cropPath": "region-9.png"
+    },
+    {
+      "id": "hero-bookmark",
+      "kind": "control",
+      "note": "Circular frosted glass bookmark icon button",
+      "grid": null,
+      "box": {
+        "x": 0.0814,
+        "y": 0.599,
+        "w": 0.0436,
+        "h": 0.0781
+      },
+      "px": {
+        "x": 112,
+        "y": 460,
+        "w": 60,
+        "h": 60
+      },
+      "aspect": 1,
+      "palette": [
+        {
+          "hex": "#363847",
+          "coverage": 0.5729
+        },
+        {
+          "hex": "#09131b",
+          "coverage": 0.299
+        },
+        {
+          "hex": "#5e6570",
+          "coverage": 0.0955
+        },
+        {
+          "hex": "#949aa2",
+          "coverage": 0.0201
+        },
+        {
+          "hex": "#f5f5f5",
+          "coverage": 0.0126
+        }
+      ],
+      "detail": {
+        "energy": 8.2739
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 10,
+      "cropPath": "region-10.png"
+    },
+    {
+      "id": "hero-discover-btn",
+      "kind": "control",
+      "note": "Outline pill CTA button reading Discover Location",
+      "grid": null,
+      "box": {
+        "x": 0.1337,
+        "y": 0.599,
+        "w": 0.1584,
+        "h": 0.0781
+      },
+      "px": {
+        "x": 184,
+        "y": 460,
+        "w": 218,
+        "h": 60
+      },
+      "aspect": 3.6333,
+      "palette": [
+        {
+          "hex": "#10151a",
+          "coverage": 0.8117
+        },
+        {
+          "hex": "#f5f5f5",
+          "coverage": 0.0879
+        },
+        {
+          "hex": "#7e7d80",
+          "coverage": 0.0544
+        },
+        {
+          "hex": "#332a21",
+          "coverage": 0.0265
+        },
+        {
+          "hex": "#bec1c6",
+          "coverage": 0.0195
+        }
+      ],
+      "detail": {
+        "energy": 48.082
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 11,
+      "cropPath": "region-11.png"
+    },
+    {
+      "id": "card-kerala-img",
+      "kind": "image",
+      "note": "Portrait photograph of a traditional wooden houseboat gliding across emerald Kerala backwaters framed inside rounded glass border",
+      "grid": null,
+      "box": {
+        "x": 0.5509,
+        "y": 0.2214,
+        "w": 0.1177,
+        "h": 0.4766
+      },
+      "px": {
+        "x": 758,
+        "y": 170,
+        "w": 162,
+        "h": 366
+      },
+      "aspect": 0.4426,
+      "palette": [
+        {
+          "hex": "#c2d9e3",
+          "coverage": 0.3616
+        },
+        {
+          "hex": "#1c3520",
+          "coverage": 0.3311
+        },
+        {
+          "hex": "#2a4e1e",
+          "coverage": 0.1244
+        },
+        {
+          "hex": "#30564d",
+          "coverage": 0.094
+        },
+        {
+          "hex": "#507d75",
+          "coverage": 0.0889
+        }
+      ],
+      "detail": {
+        "energy": 17.5139
+      },
+      "medium": "raster",
+      "plate": "assets/plates/card-kerala-img.png",
+      "text": null,
+      "number": 12,
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 2688,
+        "totalPixels": 59292,
+        "remainingPixels": 56604,
+        "excludedFraction": 0.045334952438777575,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "card-kerala-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 8,
+              "y": 322,
+              "w": 84,
+              "h": 32
+            },
+            "pixels": 2688
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "cropPath": "region-12.png",
+      "referencePath": "reference-12.png"
+    },
+    {
+      "id": "card-kerala-label",
+      "kind": "text",
+      "note": "White destination label reading Kerala on bottom-left of first carousel card",
+      "grid": null,
+      "box": {
+        "x": 0.5567,
+        "y": 0.6406,
+        "w": 0.061,
+        "h": 0.0417
+      },
+      "px": {
+        "x": 766,
+        "y": 492,
+        "w": 84,
+        "h": 32
+      },
+      "aspect": 2.625,
+      "palette": [
+        {
+          "hex": "#193022",
+          "coverage": 0.7425
+        },
+        {
+          "hex": "#f1f4f1",
+          "coverage": 0.1338
+        },
+        {
+          "hex": "#101914",
+          "coverage": 0.0602
+        },
+        {
+          "hex": "#c4d1c5",
+          "coverage": 0.0368
+        },
+        {
+          "hex": "#8a968c",
+          "coverage": 0.0268
+        }
+      ],
+      "detail": {
+        "energy": 24.2252
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 13,
+      "cropPath": "region-13.png"
+    },
+    {
+      "id": "card-himachal-img",
+      "kind": "image",
+      "note": "Portrait photograph of mist-draped snow-capped Himalayan mountain peaks in Himachal Pradesh framed inside rounded glass border",
+      "grid": null,
+      "box": {
+        "x": 0.6904,
+        "y": 0.2565,
+        "w": 0.109,
+        "h": 0.4219
+      },
+      "px": {
+        "x": 950,
+        "y": 197,
+        "w": 150,
+        "h": 324
+      },
+      "aspect": 0.463,
+      "palette": [
+        {
+          "hex": "#cad2e0",
+          "coverage": 0.4123
+        },
+        {
+          "hex": "#1b2b34",
+          "coverage": 0.2631
+        },
+        {
+          "hex": "#3a546a",
+          "coverage": 0.1336
+        },
+        {
+          "hex": "#8a9baf",
+          "coverage": 0.1297
+        },
+        {
+          "hex": "#5c748f",
+          "coverage": 0.0613
+        }
+      ],
+      "detail": {
+        "energy": 13.5554
+      },
+      "medium": "raster",
+      "clipped": [
+        "left",
+        "right",
+        "top"
+      ],
+      "plate": "assets/plates/card-himachal-img.png",
+      "text": null,
+      "number": 14,
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 6496,
+        "totalPixels": 48600,
+        "remainingPixels": 42104,
+        "excludedFraction": 0.1336625514403292,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "card-himachal-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 8,
+              "y": 255,
+              "w": 112,
+              "h": 58
+            },
+            "pixels": 6496
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "cropPath": "region-14.png",
+      "referencePath": "reference-14.png"
+    },
+    {
+      "id": "card-himachal-label",
+      "kind": "text",
+      "note": "Two-line white destination label reading Himachal Pradesh on second carousel card",
+      "grid": null,
+      "box": {
+        "x": 0.6962,
+        "y": 0.5885,
+        "w": 0.0814,
+        "h": 0.0755
+      },
+      "px": {
+        "x": 958,
+        "y": 452,
+        "w": 112,
+        "h": 58
+      },
+      "aspect": 1.931,
+      "palette": [
+        {
+          "hex": "#19272f",
+          "coverage": 0.7835
+        },
+        {
+          "hex": "#f5f7f7",
+          "coverage": 0.1076
+        },
+        {
+          "hex": "#98a0a4",
+          "coverage": 0.0425
+        },
+        {
+          "hex": "#465157",
+          "coverage": 0.0359
+        },
+        {
+          "hex": "#c8ccd2",
+          "coverage": 0.0305
+        }
+      ],
+      "detail": {
+        "energy": 33.2102
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 15,
+      "cropPath": "region-15.png"
+    },
+    {
+      "id": "card-goa-img",
+      "kind": "image",
+      "note": "Portrait photograph of palm-fringed golden sandy beach and turquoise waves in Goa framed inside rounded glass border",
+      "grid": null,
+      "box": {
+        "x": 0.8212,
+        "y": 0.2904,
+        "w": 0.1017,
+        "h": 0.3724
+      },
+      "px": {
+        "x": 1130,
+        "y": 223,
+        "w": 140,
+        "h": 286
+      },
+      "aspect": 0.4895,
+      "palette": [
+        {
+          "hex": "#b5d0e7",
+          "coverage": 0.3483
+        },
+        {
+          "hex": "#564416",
+          "coverage": 0.2101
+        },
+        {
+          "hex": "#635445",
+          "coverage": 0.1724
+        },
+        {
+          "hex": "#40372c",
+          "coverage": 0.1492
+        },
+        {
+          "hex": "#835726",
+          "coverage": 0.12
+        }
+      ],
+      "detail": {
+        "energy": 18.8013
+      },
+      "medium": "raster",
+      "clipped": [
+        "left",
+        "top"
+      ],
+      "plate": "assets/plates/card-goa-img.png",
+      "text": null,
+      "number": 16,
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 1740,
+        "totalPixels": 40040,
+        "remainingPixels": 38300,
+        "excludedFraction": 0.043456543456543456,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "card-goa-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 8,
+              "y": 247,
+              "w": 58,
+              "h": 30
+            },
+            "pixels": 1740
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "cropPath": "region-16.png",
+      "referencePath": "reference-16.png"
+    },
+    {
+      "id": "card-goa-label",
+      "kind": "text",
+      "note": "White destination label reading Goa on third carousel card",
+      "grid": null,
+      "box": {
+        "x": 0.827,
+        "y": 0.612,
+        "w": 0.0422,
+        "h": 0.0391
+      },
+      "px": {
+        "x": 1138,
+        "y": 470,
+        "w": 58,
+        "h": 30
+      },
+      "aspect": 1.9333,
+      "palette": [
+        {
+          "hex": "#4e443b",
+          "coverage": 0.78
+        },
+        {
+          "hex": "#f6f4f2",
+          "coverage": 0.125
+        },
+        {
+          "hex": "#776c63",
+          "coverage": 0.075
+        },
+        {
+          "hex": "#b8b3ad",
+          "coverage": 0.015
+        },
+        {
+          "hex": "#584828",
+          "coverage": 0.005
+        }
+      ],
+      "detail": {
+        "energy": 14.2087
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 17,
+      "cropPath": "region-17.png"
+    },
+    {
+      "id": "card-ladakh-img",
+      "kind": "image",
+      "note": "Portrait photograph of high-altitude turquoise Pangong lake and barren mountains in Ladakh framed inside rounded glass border",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.944,
+        "y": 0.3099,
+        "w": 0.056,
+        "h": 0.349
+      },
+      "px": {
+        "x": 1299,
+        "y": 238,
+        "w": 77,
+        "h": 268
+      },
+      "aspect": 0.2873,
+      "palette": [
+        {
+          "hex": "#0a8cb6",
+          "coverage": 0.2519
+        },
+        {
+          "hex": "#226c73",
+          "coverage": 0.245
+        },
+        {
+          "hex": "#224447",
+          "coverage": 0.1869
+        },
+        {
+          "hex": "#1191a1",
+          "coverage": 0.1779
+        },
+        {
+          "hex": "#565351",
+          "coverage": 0.1384
+        }
+      ],
+      "detail": {
+        "energy": 8.6588
+      },
+      "medium": "raster",
+      "plate": "assets/plates/card-ladakh-img.png",
+      "text": null,
+      "number": 18,
+      "reference": {
+        "policy": "plate-reference-v2",
+        "excludedPixels": 1848,
+        "totalPixels": 20636,
+        "remainingPixels": 18788,
+        "excludedFraction": 0.08955223880597014,
+        "fullyExcluded": false,
+        "regions": [
+          {
+            "id": "card-ladakh-label",
+            "kind": "text",
+            "cropPx": {
+              "x": 7,
+              "y": 234,
+              "w": 66,
+              "h": 28
+            },
+            "pixels": 1848
+          }
+        ],
+        "ignoredContainers": []
+      },
+      "cropPath": "region-18.png",
+      "referencePath": "reference-18.png"
+    },
+    {
+      "id": "card-ladakh-label",
+      "kind": "text",
+      "note": "White destination label reading Ladakh on fourth carousel card",
+      "grid": null,
+      "box": {
+        "x": 0.9491,
+        "y": 0.6146,
+        "w": 0.048,
+        "h": 0.0365
+      },
+      "px": {
+        "x": 1306,
+        "y": 472,
+        "w": 66,
+        "h": 28
+      },
+      "aspect": 2.3571,
+      "palette": [
+        {
+          "hex": "#203a3a",
+          "coverage": 0.7465
+        },
+        {
+          "hex": "#eff5f5",
+          "coverage": 0.129
+        },
+        {
+          "hex": "#596766",
+          "coverage": 0.0783
+        },
+        {
+          "hex": "#92a2a2",
+          "coverage": 0.0369
+        },
+        {
+          "hex": "#181818",
+          "coverage": 0.0092
+        }
+      ],
+      "detail": {
+        "energy": 22.4173
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 19,
+      "cropPath": "region-19.png"
+    },
+    {
+      "id": "carousel-prev",
+      "kind": "control",
+      "note": "Circular frosted glass previous-slide arrow button",
+      "grid": null,
+      "box": {
+        "x": 0.5451,
+        "y": 0.7344,
+        "w": 0.0349,
+        "h": 0.0625
+      },
+      "px": {
+        "x": 750,
+        "y": 564,
+        "w": 48,
+        "h": 48
+      },
+      "aspect": 1,
+      "palette": [
+        {
+          "hex": "#5e4b3c",
+          "coverage": 0.6367
+        },
+        {
+          "hex": "#3b2717",
+          "coverage": 0.2852
+        },
+        {
+          "hex": "#807069",
+          "coverage": 0.0664
+        },
+        {
+          "hex": "#d8d0c0",
+          "coverage": 0.0078
+        },
+        {
+          "hex": "#989888",
+          "coverage": 0.0039
+        }
+      ],
+      "detail": {
+        "energy": 5.3669
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 20,
+      "cropPath": "region-20.png"
+    },
+    {
+      "id": "carousel-next",
+      "kind": "control",
+      "note": "Circular frosted glass next-slide arrow button",
+      "grid": null,
+      "box": {
+        "x": 0.5858,
+        "y": 0.7344,
+        "w": 0.0349,
+        "h": 0.0625
+      },
+      "px": {
+        "x": 806,
+        "y": 564,
+        "w": 48,
+        "h": 48
+      },
+      "aspect": 1,
+      "palette": [
+        {
+          "hex": "#473d35",
+          "coverage": 0.6797
+        },
+        {
+          "hex": "#291818",
+          "coverage": 0.1992
+        },
+        {
+          "hex": "#746765",
+          "coverage": 0.1094
+        },
+        {
+          "hex": "#e8e0e0",
+          "coverage": 0.0078
+        },
+        {
+          "hex": "#888878",
+          "coverage": 0.0039
+        }
+      ],
+      "detail": {
+        "energy": 5.6559
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 21,
+      "cropPath": "region-21.png"
+    },
+    {
+      "id": "carousel-progress",
+      "kind": "chrome",
+      "note": "Thin horizontal carousel progress line with active sunset saffron segment",
+      "grid": null,
+      "box": {
+        "x": 0.6352,
+        "y": 0.7552,
+        "w": 0.2166,
+        "h": 0.0208
+      },
+      "px": {
+        "x": 874,
+        "y": 580,
+        "w": 298,
+        "h": 16
+      },
+      "aspect": 18.625,
+      "palette": [
+        {
+          "hex": "#2e1e1a",
+          "coverage": 0.6043
+        },
+        {
+          "hex": "#635854",
+          "coverage": 0.2755
+        },
+        {
+          "hex": "#4a2d18",
+          "coverage": 0.0735
+        },
+        {
+          "hex": "#f4a754",
+          "coverage": 0.0451
+        },
+        {
+          "hex": "#785838",
+          "coverage": 0.0017
+        }
+      ],
+      "detail": {
+        "energy": 23.3964
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 22,
+      "cropPath": "region-22.png"
+    },
+    {
+      "id": "carousel-counter",
+      "kind": "text",
+      "note": "Large condensed slide counter reading 01 / 09",
+      "grid": null,
+      "box": {
+        "x": 0.8634,
+        "y": 0.7292,
+        "w": 0.0858,
+        "h": 0.0755
+      },
+      "px": {
+        "x": 1188,
+        "y": 560,
+        "w": 118,
+        "h": 58
+      },
+      "aspect": 2.0345,
+      "palette": [
+        {
+          "hex": "#0f0e17",
+          "coverage": 0.7487
+        },
+        {
+          "hex": "#f5f5f5",
+          "coverage": 0.1382
+        },
+        {
+          "hex": "#a5a5a6",
+          "coverage": 0.0641
+        },
+        {
+          "hex": "#7e7e7f",
+          "coverage": 0.0302
+        },
+        {
+          "hex": "#474748",
+          "coverage": 0.0188
+        }
+      ],
+      "detail": {
+        "energy": 19.015
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 23,
+      "cropPath": "region-23.png"
+    },
+    {
+      "id": "search-dock",
+      "kind": "control",
+      "note": "Dark frosted-glass Quick Search Bar container overlapping hero bottom and off-white band",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0.2151,
+        "y": 0.862,
+        "w": 0.5698,
+        "h": 0.099
+      },
+      "px": {
+        "x": 296,
+        "y": 662,
+        "w": 784,
+        "h": 76
+      },
+      "aspect": 10.3158,
+      "palette": [
+        {
+          "hex": "#161b24",
+          "coverage": 0.4374
+        },
+        {
+          "hex": "#44464d",
+          "coverage": 0.3806
+        },
+        {
+          "hex": "#f8983a",
+          "coverage": 0.1121
+        },
+        {
+          "hex": "#e0dfdf",
+          "coverage": 0.0619
+        },
+        {
+          "hex": "#b97b48",
+          "coverage": 0.008
+        }
+      ],
+      "detail": {
+        "energy": 26.1598
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 24,
+      "cropPath": "region-24.png"
+    },
+    {
+      "id": "search-fields",
+      "kind": "text",
+      "note": "Segmented search bar inputs labeled Destination, Dates, Travellers, and Budget",
+      "grid": null,
+      "parentId": "search-dock",
+      "box": {
+        "x": 0.2297,
+        "y": 0.8802,
+        "w": 0.4273,
+        "h": 0.0625
+      },
+      "px": {
+        "x": 316,
+        "y": 676,
+        "w": 588,
+        "h": 48
+      },
+      "aspect": 12.25,
+      "palette": [
+        {
+          "hex": "#181c27",
+          "coverage": 0.571
+        },
+        {
+          "hex": "#3c4044",
+          "coverage": 0.3667
+        },
+        {
+          "hex": "#eceff0",
+          "coverage": 0.0291
+        },
+        {
+          "hex": "#b0b0b5",
+          "coverage": 0.0224
+        },
+        {
+          "hex": "#7e7f82",
+          "coverage": 0.0109
+        }
+      ],
+      "detail": {
+        "energy": 25.1899
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 25,
+      "cropPath": "region-25.png"
+    },
+    {
+      "id": "search-submit",
+      "kind": "control",
+      "note": "Rounded sunset saffron Find Trips submit button inside search bar",
+      "grid": null,
+      "parentId": "search-dock",
+      "box": {
+        "x": 0.6628,
+        "y": 0.8724,
+        "w": 0.1148,
+        "h": 0.0755
+      },
+      "px": {
+        "x": 912,
+        "y": 670,
+        "w": 158,
+        "h": 58
+      },
+      "aspect": 2.7241,
+      "palette": [
+        {
+          "hex": "#f89939",
+          "coverage": 0.7348
+        },
+        {
+          "hex": "#191517",
+          "coverage": 0.0877
+        },
+        {
+          "hex": "#b97f4d",
+          "coverage": 0.0728
+        },
+        {
+          "hex": "#2b0a08",
+          "coverage": 0.0618
+        },
+        {
+          "hex": "#e9a457",
+          "coverage": 0.0429
+        }
+      ],
+      "detail": {
+        "energy": 16.3078
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "number": 26,
+      "cropPath": "region-26.png"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "foreground-mask",
+      "regionId": "hero-backdrop",
+      "message": "nav-brand, nav-links, nav-search-btn, nav-cta, hero-hairline, hero-location, hero-title, hero-desc, hero-bookmark, hero-discover-btn, card-kerala-label, card-himachal-label, card-goa-label, card-ladakh-label, carousel-prev, carousel-next, carousel-progress, carousel-counter, search-fields, search-submit exclude 18.7% of this reference. Check that the excluded pixels contain foreground, not artwork between separate text elements. Split overly broad foreground bounds; review grouping must not change geometry."
+    },
+    {
+      "severity": "warning",
+      "code": "foreground-mask",
+      "regionId": "card-kerala-img",
+      "message": "card-kerala-label exclude 4.5% of this reference. Check that the excluded pixels contain foreground, not artwork between separate text elements. Split overly broad foreground bounds; review grouping must not change geometry."
+    },
+    {
+      "severity": "warning",
+      "code": "foreground-mask",
+      "regionId": "card-himachal-img",
+      "message": "card-himachal-label exclude 13.4% of this reference. Check that the excluded pixels contain foreground, not artwork between separate text elements. Split overly broad foreground bounds; review grouping must not change geometry."
+    },
+    {
+      "severity": "warning",
+      "code": "foreground-mask",
+      "regionId": "card-goa-img",
+      "message": "card-goa-label exclude 4.3% of this reference. Check that the excluded pixels contain foreground, not artwork between separate text elements. Split overly broad foreground bounds; review grouping must not change geometry."
+    },
+    {
+      "severity": "warning",
+      "code": "foreground-mask",
+      "regionId": "card-ladakh-img",
+      "message": "card-ladakh-label exclude 9.0% of this reference. Check that the excluded pixels contain foreground, not artwork between separate text elements. Split overly broad foreground bounds; review grouping must not change geometry."
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region hero-backdrop: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region card-himachal-img: the artwork runs off the box on the left and right and top (its ink reaches the edge over 35% of that side). Widen the region so the box holds the whole shape with a margin; a plate placed with object-fit: cover on this box would be cut there."
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region card-goa-img: the artwork runs off the box on the left and top (its ink reaches the edge over 35% of that side). Widen the region so the box holds the whole shape with a margin; a plate placed with object-fit: cover on this box would be cut there."
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region card-ladakh-img: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+    },
+    {
+      "severity": "warning",
+      "code": "measurement-warning",
+      "regionId": null,
+      "message": "region search-dock: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)"
+    },
+    {
+      "severity": "warning",
+      "code": "uncovered-ink",
+      "regionId": null,
+      "message": "4 grid cells have detail outside named regions. This is a coverage heuristic, not proof of missing components."
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "hero-backdrop",
+      "b": "nav-brand",
+      "pixels": 11040.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "nav-links",
+      "pixels": 18060.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "nav-search-btn",
+      "pixels": 1296.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "nav-cta",
+      "pixels": 6248.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-hairline",
+      "pixels": 1890.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-location",
+      "pixels": 6272.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-title",
+      "pixels": 39312.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-desc",
+      "pixels": 28380.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-bookmark",
+      "pixels": 3600.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "hero-discover-btn",
+      "pixels": 13080.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-kerala-img",
+      "pixels": 59292.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-kerala-label",
+      "pixels": 2688.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-himachal-img",
+      "pixels": 48600.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-himachal-label",
+      "pixels": 6496.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-goa-img",
+      "pixels": 40040.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-goa-label",
+      "pixels": 1740.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-ladakh-img",
+      "pixels": 20636.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "card-ladakh-label",
+      "pixels": 1848.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "carousel-prev",
+      "pixels": 2304.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "carousel-next",
+      "pixels": 2304.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "carousel-progress",
+      "pixels": 4768.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "carousel-counter",
+      "pixels": 6844.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "search-dock",
+      "pixels": 34496.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "search-fields",
+      "pixels": 17640.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "hero-backdrop",
+      "b": "search-submit",
+      "pixels": 5688.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "card-kerala-img",
+      "b": "card-kerala-label",
+      "pixels": 2688.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "card-himachal-img",
+      "b": "card-himachal-label",
+      "pixels": 6496.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "card-goa-img",
+      "b": "card-goa-label",
+      "pixels": 1740.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "card-ladakh-img",
+      "b": "card-ladakh-label",
+      "pixels": 1848.0,
+      "relationship": "overlapping elements"
+    },
+    {
+      "a": "search-dock",
+      "b": "search-fields",
+      "pixels": 28224.0,
+      "relationship": "container extent"
+    },
+    {
+      "a": "search-dock",
+      "b": "search-submit",
+      "pixels": 9164.0,
+      "relationship": "container extent"
+    }
+  ],
+  "reviewGroups": {},
+  "uncoveredInkCells": [
+    "A9",
+    "B9",
+    "I9",
+    "J9"
+  ],
+  "comparisonSheets": [
+    {
+      "path": "comparison-1.png",
+      "regionIds": [
+        "hero-backdrop",
+        "card-himachal-img",
+        "card-ladakh-img",
+        "card-kerala-img",
+        "card-goa-img"
+      ]
+    }
+  ]
+}

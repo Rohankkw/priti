@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T16:20:00+05:30",
+  "title": "Design System: Priti Travels Hub",
+  "extensions": {
+    "colorMeta": {
+      "midnight-navy": {
+        "role": "neutral",
+        "displayName": "Midnight Navy",
+        "canonical": "#0B1220",
+        "tonalRamp": ["#05080F", "#070C16", "#0B1220", "#121D32", "#1C2B48", "#33476B", "#7E90AE", "#E6ECF5"]
+      },
+      "saffron-sunset": {
+        "role": "primary",
+        "displayName": "Sunset Saffron",
+        "canonical": "#FF9933",
+        "tonalRamp": ["#4D2400", "#8A4500", "#C86D10", "#FF9933", "#FFB266", "#FFCC99", "#FFE5CC", "#FFF5EB"]
+      },
+      "warm-gold": {
+        "role": "secondary",
+        "displayName": "Warm Gold",
+        "canonical": "#F4B942",
+        "tonalRamp": ["#4A3306", "#875F12", "#C48E24", "#F4B942", "#F7CA6E", "#FAD997", "#FCE9C2", "#FEF7E8"]
+      },
+      "off-white-ivory": {
+        "role": "neutral",
+        "displayName": "Off-White Ivory",
+        "canonical": "#F7F3EC",
+        "tonalRamp": ["#2D2922", "#595246", "#877E6E", "#B5AC9C", "#D8D1C4", "#EFE8DB", "#F7F3EC", "#FCFAF7"]
+      },
+      "emerald-india": {
+        "role": "tertiary",
+        "displayName": "India Emerald",
+        "canonical": "#138808",
+        "tonalRamp": ["#052902", "#094A04", "#0E6906", "#138808", "#2BA820", "#5CC452", "#9EE098", "#E6F8E4"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Condensed", "purpose": "Hero destination headlines and monumental counters." },
+      "editorial-accent": { "displayName": "Italic Serif Accent", "purpose": "Magazine-style section emphasis words and quotes." },
+      "body": { "displayName": "UI & Editorial Sans", "purpose": "Body copy, navigation links, and form controls." }
+    },
+    "shadows": [
+      { "name": "hero-card-ambient", "value": "0 24px 48px rgba(7, 12, 22, 0.55)", "purpose": "Floating depth beneath borderless hero cards and search dock." },
+      { "name": "package-card-soft", "value": "0 20px 44px rgba(11, 18, 32, 0.08)", "purpose": "Subtle elevation on light-ground tour package cards." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "UI transitions, hover lifts, and letter reveals." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "GPU clip-path hero card expansion behind the deck." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Saffron Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary conversion CTA used for Plan My Trip, Find Trips, and Book/Enquire actions.",
+      "html": "<button class=\"ds-btn-primary\">Plan My Trip</button>",
+      "css": ".ds-btn-primary { background: #FF9933; color: #0B1220; border: none; border-radius: 9999px; padding: 12px 24px; font-weight: 600; font-size: 14px; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.23, 1, 0.32, 1); } .ds-btn-primary:hover { background: #F4B942; } .ds-btn-primary:focus-visible { outline: 2px solid #F4B942; outline-offset: 3px; }"
+    },
+    {
+      "name": "Discover Location Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary hero action over full-bleed photography.",
+      "html": "<button class=\"ds-btn-outline\">Discover Location</button>",
+      "css": ".ds-btn-outline { background: rgba(11, 18, 32, 0.55); color: #F5F5F5; border: 1.5px solid rgba(245, 245, 245, 0.9); border-radius: 9999px; padding: 12px 24px; font-size: 15px; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.23, 1, 0.32, 1), color 0.2s, border-color 0.2s; } .ds-btn-outline:hover { background: #FF9933; border-color: #FF9933; color: #0B1220; }"
+    },
+    {
+      "name": "Sharp Hero Destination Card",
+      "kind": "card",
+      "description": "Borderless, zero-radius rectangular hero card that expands behind sibling cards on selection.",
+      "html": "<div class=\"ds-hero-card\"><div class=\"ds-hero-card-meta\"><span class=\"ds-hero-dash\"></span><span class=\"ds-hero-region\">South India</span><span class=\"ds-hero-name\">Kerala</span></div></div>",
+      "css": ".ds-hero-card { position: relative; width: 196px; height: 280px; border-radius: 0; background: linear-gradient(to top, rgba(11,18,32,0.92), rgba(24,42,68,0.55)); box-shadow: 0 24px 48px rgba(7,12,22,0.55); overflow: hidden; } .ds-hero-card-meta { position: absolute; bottom: 14px; left: 16px; color: #F7F3EC; } .ds-hero-dash { display: block; width: 16px; height: 2px; background: rgba(247,243,236,0.85); margin-bottom: 6px; } .ds-hero-region { display: block; font-size: 11px; opacity: 0.8; } .ds-hero-name { display: block; font-size: 19px; font-weight: 700; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "70mm Travel Documentary Meets Heritage Concierge",
+    "overview": "Priti Travels Hub alternates deep twilight cinema chapters with sun-warmed editorial ivory spreads. Every region is introduced as a full-bleed moving frame rather than a cramped package brochure.",
+    "keyCharacteristics": [
+      "Deep midnight navy (#0B1220) nocturnal atmosphere paired with warm off-white (#F7F3EC) editorial chapters.",
+      "Condensed uppercase display headlines (Bebas Neue) paired with Playfair Display italic accents and clean Inter body text.",
+      "Subtle 70mm film grain, directional legibility scrims, and GPU-composited clip-path reveals."
+    ],
+    "rules": [
+      { "name": "The Alternating Rhythm Rule", "body": "Dark midnight navy chapters and warm ivory editorial chapters alternate across the scroll to give photography breathing room and prevent visual fatigue.", "section": "colors" }
+    ],
+    "dos": [
+      "Do keep hero destination cards borderless, sharp (0px), and equal-sized, advancing the carousel only after the behind-card clip-path reveal completes.",
+      "Do preserve prefers-reduced-motion fallbacks and the static SVG India map fallback for non-WebGL contexts."
+    ],
+    "donts": [
+      "Don't add vertical decorative stripes, eyebrow kickers above headings, or borders onto hero destination cards.",
+      "Don't hardcode destination copy or image URLs inside components; store all editable data in src/data/travelData.ts."
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+@import './styles/fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Motion & Measured Layout Tokens */
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+
+  --r-hero-backdrop-x: 0.000%;
+  --r-hero-backdrop-y: 0.000%;
+  --r-hero-backdrop-w: 100.000%;
+  --r-hero-backdrop-h: 91.930%;
+
+  --r-nav-brand-x: 4.650%;
+  --r-nav-brand-y: 3.390%;
+  --r-nav-brand-w: 16.720%;
+  --r-nav-brand-h: 6.250%;
+
+  --r-nav-links-x: 27.910%;
+  --r-nav-links-y: 4.690%;
+  --r-nav-links-w: 44.190%;
+  --r-nav-links-h: 3.910%;
+
+  --r-nav-search-btn-x: 80.960%;
+  --r-nav-search-btn-y: 4.170%;
+  --r-nav-search-btn-w: 2.620%;
+  --r-nav-search-btn-h: 4.690%;
+
+  --r-nav-cta-x: 84.740%;
+  --r-nav-cta-y: 3.650%;
+  --r-nav-cta-w: 10.320%;
+  --r-nav-cta-h: 5.730%;
+
+  --r-hero-hairline-x: 5.520%;
+  --r-hero-hairline-y: 27.340%;
+  --r-hero-hairline-w: 0.440%;
+  --r-hero-hairline-h: 41.020%;
+
+  --r-hero-location-x: 8.140%;
+  --r-hero-location-y: 27.860%;
+  --r-hero-location-w: 18.000%;
+  --r-hero-location-h: 4.170%;
+
+  --r-hero-title-x: 7.990%;
+  --r-hero-title-y: 32.810%;
+  --r-hero-title-w: 32.000%;
+  --r-hero-title-h: 14.580%;
+
+  --r-hero-desc-x: 7.990%;
+  --r-hero-desc-y: 48.440%;
+  --r-hero-desc-w: 31.690%;
+  --r-hero-desc-h: 9.110%;
+
+  --r-hero-bookmark-x: 8.140%;
+  --r-hero-bookmark-y: 59.900%;
+  --r-hero-bookmark-w: 4.360%;
+  --r-hero-bookmark-h: 7.810%;
+
+  --r-hero-discover-btn-x: 13.370%;
+  --r-hero-discover-btn-y: 59.900%;
+  --r-hero-discover-btn-w: 15.840%;
+  --r-hero-discover-btn-h: 7.810%;
+
+  --r-card-kerala-img-x: 55.090%;
+  --r-card-kerala-img-y: 22.140%;
+  --r-card-kerala-img-w: 11.770%;
+  --r-card-kerala-img-h: 47.660%;
+
+  --r-card-himachal-img-x: 69.040%;
+  --r-card-himachal-img-y: 25.650%;
+  --r-card-himachal-img-w: 10.900%;
+  --r-card-himachal-img-h: 42.190%;
+
+  --r-card-goa-img-x: 82.120%;
+  --r-card-goa-img-y: 29.040%;
+  --r-card-goa-img-w: 10.170%;
+  --r-card-goa-img-h: 37.240%;
+
+  --r-card-ladakh-img-x: 94.400%;
+  --r-card-ladakh-img-y: 30.990%;
+  --r-card-ladakh-img-w: 9.600%;
+  --r-card-ladakh-img-h: 34.900%;
+
+  --r-carousel-prev-x: 54.510%;
+  --r-carousel-prev-y: 73.440%;
+  --r-carousel-prev-w: 3.490%;
+  --r-carousel-prev-h: 6.250%;
+
+  --r-carousel-next-x: 58.580%;
+  --r-carousel-next-y: 73.440%;
+  --r-carousel-next-w: 3.490%;
+  --r-carousel-next-h: 6.250%;
+
+  --r-carousel-progress-x: 63.520%;
+  --r-carousel-progress-y: 75.520%;
+  --r-carousel-progress-w: 21.660%;
+  --r-carousel-progress-h: 2.080%;
+
+  --r-carousel-counter-x: 86.340%;
+  --r-carousel-counter-y: 72.660%;
+  --r-carousel-counter-w: 9.200%;
+  --r-carousel-counter-h: 8.070%;
+
+  --r-search-dock-x: 21.510%;
+  --r-search-dock-y: 86.200%;
+  --r-search-dock-w: 56.980%;
+  --r-search-dock-h: 9.900%;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #0B1220;
+  color: #F7F3EC;
+  scroll-behavior: auto;
+}
+
+/* Browser surface theming */
+::selection {
+  background-color: #FF9933;
+  color: #0B1220;
+}
+
+:focus-visible {
+  outline: 2px solid #F4B942;
+  outline-offset: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070C16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #25344E;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF9933;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle 70mm film-grain texture via SVG noise data-free CSS gradient pattern */
+.film-grain {
+  background-image: radial-gradient(rgba(247, 243, 236, 0.05) 1px, transparent 0);
+  background-size: 3px 3px;
+  pointer-events: none;
+}
+
+/* Ken Burns slow zoom animation for active hero backdrop */
+@keyframes kenBurnsZoom {
+  0% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: scale(1.08) translate3d(-0.8%, -0.5%, 0);
+  }
+}
+
+.ken-burns-active,
+.animate-ken-burns {
+  animation: kenBurnsZoom 18s ease-out forwards;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hero-card-img {
+  transition: transform 420ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hero-card-hover {
+    transition: transform 240ms var(--ease-out);
+  }
+  .hero-card-hover:hover {
+    transform: translateY(-6px);
+  }
+  .hero-card-hover:hover .hero-card-img {
+    transform: scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ken-burns-active,
+  .animate-ken-burns {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

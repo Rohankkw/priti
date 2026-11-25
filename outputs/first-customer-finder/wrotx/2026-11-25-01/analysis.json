@@ -1,0 +1,277 @@
+{
+  "schema_version": 2,
+  "demo": false,
+  "project_key": "https://wrotx.in/",
+  "title": "First Customer Finder · WrotX (Businesses Without Websites)",
+  "product": "WrotX — Website Design, Custom Software & WhatsApp Automation Studio",
+  "product_url": "https://wrotx.in/",
+  "target_customer": "Indian SMBs and early-stage founders (especially Mumbai & Maharashtra) operating without a website or seeking their first business/product website",
+  "search_scope": "Public Indian startup and small-business Reddit threads inspected on 2026-11-25; excludes solved, closed, deleted, or seller posts.",
+  "generated_at": "2026-11-25",
+  "verdict": "Six verified public-signal prospects found across Indian business and startup threads, led by an active B2B manufacturer needing a custom catalog/RFQ portal and a 1-day-old Instagram-only business blocked by perceived website cost.",
+  "prospects": [
+    {
+      "name": "Indian B2B Manufacturer (u/Gloomy_Fly3214)",
+      "entity_url": "https://www.reddit.com/user/Gloomy_Fly3214/",
+      "type": "Company",
+      "stage": "High intent",
+      "pain_signal": "Owns a manufacturing business without a website and lacks coding knowledge to build a B2B bulk-order catalog and RFQ portal.",
+      "evidence": "Posted asking how to get a single-company B2B website built with product specs, bulk RFQ workflow, customer document upload, order tracking, admin panel, and email/WhatsApp notifications; 0 OP replies among 29 comments.",
+      "evidence_status": "verified",
+      "why_fit": "WrotX builds custom software and business web portals (starting at INR 14,999 with zero monthly licensing fees) plus WhatsApp automation and 60-day staff training.",
+      "why_now": "Explicitly asked how to get this system developed and has not marked the thread resolved.",
+      "source_title": "Need a website like IndiaMART for my manufacturing business !!!!!! Is this possible?",
+      "source_url": "https://www.reddit.com/r/IndiaBusiness/comments/1ujpnr6/need_a_website_like_indiamart_for_my/",
+      "source_type": "Reddit public post (r/IndiaBusiness)",
+      "signal_date": "2026-06-30",
+      "checked_at": "2026-11-25",
+      "target_role": "Manufacturing business owner / founder",
+      "role_basis": "observed",
+      "suggested_channel": "Reddit DM or thread reply (respecting r/IndiaBusiness self-promotion rules)",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit profile DM / post reply",
+        "url": "https://www.reddit.com/user/Gloomy_Fly3214/",
+        "source_url": "https://www.reddit.com/r/IndiaBusiness/comments/1ujpnr6/need_a_website_like_indiamart_for_my/",
+        "checked_at": "2026-11-25",
+        "note": "Public Reddit account active on thread; author explicitly invited guidance on getting the portal built."
+      },
+      "next_step": "Confirm whether they still need the B2B RFQ portal and share a simple phased scope (catalog + WhatsApp RFQ first, full portal second).",
+      "cta": "Are you still looking to get your manufacturing RFQ portal built?",
+      "opener": "Saw your r/IndiaBusiness post about wanting a B2B catalog and WhatsApp RFQ portal for your manufacturing business without relying on coding. We build custom business portals in India with zero monthly licensing fees and full handover. Are you still looking to get your manufacturing RFQ portal built?",
+      "caution": "Posted 5 months ago (2026-06-30) with 29 comments, so they may have already started offline; verify status before scoping.",
+      "dimensions": {
+        "pain_strength": 4,
+        "product_fit": 5,
+        "timing": 3,
+        "reachability": 4,
+        "evidence_quality": 4
+      }
+    },
+    {
+      "name": "Instagram-Only Indian Small Business (u/Stunning_Stop_276)",
+      "entity_url": "https://www.reddit.com/user/Stunning_Stop_276/",
+      "type": "Company",
+      "stage": "Problem aware",
+      "pain_signal": "Operates exclusively on Instagram with no website; customers keep asking for a website showing all designs/images, but owner fears website costs.",
+      "evidence": "Commented on 2026-11-24 in r/smallbusinessindia that customers ask for a website with all designs and images, adding 'website needs money and I can't invest in that'.",
+      "evidence_status": "verified",
+      "why_fit": "WrotX offers mobile-first business websites starting at INR 6,999 in 1 week with WhatsApp integration and no ongoing agency retainers, directly addressing cost friction.",
+      "why_now": "Signal was posted 1 day ago (2026-11-24), indicating active, unresolved friction right now.",
+      "source_title": "Comment on: Does every small business really need a website?",
+      "source_url": "https://www.reddit.com/r/smallbusinessindia/comments/1y45l0k/does_every_small_business_really_need_a_website/",
+      "source_type": "Reddit public comment (r/smallbusinessindia)",
+      "signal_date": "2026-11-24",
+      "checked_at": "2026-11-25",
+      "target_role": "Small business owner",
+      "role_basis": "observed",
+      "suggested_channel": "Respectful Reddit DM (parent post was removed by moderators)",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit profile DM",
+        "url": "https://www.reddit.com/user/Stunning_Stop_276/",
+        "source_url": "https://www.reddit.com/r/smallbusinessindia/comments/1y45l0k/does_every_small_business_really_need_a_website/",
+        "checked_at": "2026-11-25",
+        "note": "Public Reddit profile observed on 2026-11-24 comment; avoid replying on the moderator-removed parent thread and keep any DM non-pushy."
+      },
+      "next_step": "Share how a lightweight single-page design catalog with WhatsApp ordering works at low upfront cost and ask what budget would feel realistic.",
+      "cta": "Would you like to see what a simple one-page catalog with WhatsApp ordering costs?",
+      "opener": "Saw your comment on r/smallbusinessindia about customers asking for a website with all your designs while website costs feel hard to justify. We build simple mobile catalogs with WhatsApp inquiry links starting at INR 6,999 with no monthly retainer. Would you like to see what a simple one-page catalog with WhatsApp ordering costs?",
+      "caution": "Owner explicitly stated they cannot invest in a website right now and did not solicit DMs; lead gently without hard selling.",
+      "dimensions": {
+        "pain_strength": 3,
+        "product_fit": 4,
+        "timing": 5,
+        "reachability": 3,
+        "evidence_quality": 4
+      }
+    },
+    {
+      "name": "Multi-Site Startup Buyer (u/notyourdaddy_69)",
+      "entity_url": "https://www.reddit.com/user/notyourdaddy_69/",
+      "type": "Founder",
+      "stage": "High intent",
+      "pain_signal": "Looking to hire a developer for multiple static websites with a budget of INR 5,000-10,000 per website.",
+      "evidence": "Posted on r/StartUpIndia and r/IndiaBusiness on 2026-03-06: 'Hey I am looking to hire website developer to create a couple of static websites for us. Budget around 5-10k per website. If interested please DM your portfolios.'",
+      "evidence_status": "verified",
+      "why_fit": "WrotX's INR 6,999 starting website package fits squarely inside their stated INR 5k-10k per-site budget with 1-week delivery.",
+      "why_now": "Explicit buyer request inviting portfolio DMs; thread was not edited or marked closed by OP.",
+      "source_title": "Looking for website developer",
+      "source_url": "https://www.reddit.com/r/StartUpIndia/comments/1rm97b9/looking_for_website_developer/",
+      "source_type": "Reddit public post (r/StartUpIndia & r/IndiaBusiness)",
+      "signal_date": "2026-03-06",
+      "checked_at": "2026-11-25",
+      "target_role": "Project lead / founder",
+      "role_basis": "inferred",
+      "suggested_channel": "Reddit DM with WrotX portfolio",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit DM per author's explicit invite",
+        "url": "https://www.reddit.com/user/notyourdaddy_69/",
+        "source_url": "https://www.reddit.com/r/StartUpIndia/comments/1rm97b9/looking_for_website_developer/",
+        "checked_at": "2026-11-25",
+        "note": "Author explicitly requested portfolio DMs; post is 8+ months old and user hides profile activity."
+      },
+      "next_step": "Send wrotx.in portfolio links and ask whether they have upcoming static sites in the INR 6,999-10,000 range.",
+      "cta": "Are you still hiring for static websites in the INR 5k-10k range?",
+      "opener": "Saw your r/StartUpIndia post looking for a developer to build static websites in the INR 5-10k range. At WrotX (wrotx.in), we deliver mobile-first business websites from INR 6,999 in 1 week with full code handover. Are you still hiring for static websites in the INR 5k-10k range?",
+      "caution": "Posted 2026-03-06 with 84 comments on r/StartUpIndia and 21 on r/IndiaBusiness; likely filled earlier, though future sites may remain open.",
+      "additional_sources": [
+        {
+          "url": "https://www.reddit.com/r/IndiaBusiness/comments/1rm97w7/looking_for_a_website_developer/",
+          "note": "Cross-posted duplicate request by same author on 2026-03-06; deduplicated into one prospect."
+        }
+      ],
+      "dimensions": {
+        "pain_strength": 3,
+        "product_fit": 5,
+        "timing": 2,
+        "reachability": 4,
+        "evidence_quality": 4
+      }
+    },
+    {
+      "name": "Mumbai Product & Portfolio Venture (u/benched_carnivore)",
+      "entity_url": "https://www.reddit.com/user/benched_carnivore/",
+      "type": "Company",
+      "stage": "High intent",
+      "pain_signal": "Mumbai-based team looking for a website agency to build their portfolio website plus custom product and SaaS websites.",
+      "evidence": "Posted on r/mumbai (2026-01-20): 'I am looking for some agency to develop our portfolio website and also are different custom product websites which include SAAS as well. DM me if you are the one, only share your portfolio website and an idea about your pricing.'",
+      "evidence_status": "verified",
+      "why_fit": "Exact geographic match (Mumbai) and exact service match (websites + custom product/SaaS software from WrotX).",
+      "why_now": "Explicitly sought a Mumbai-relevant agency and asked for portfolio + pricing via DM; no closed edit visible.",
+      "source_title": "Looking for a website agency",
+      "source_url": "https://www.reddit.com/r/mumbai/comments/1qi2vsp/looking_for_a_website_agency/",
+      "source_type": "Reddit public post (r/mumbai)",
+      "signal_date": "2026-01-20",
+      "checked_at": "2026-11-25",
+      "target_role": "Founder / agency buyer",
+      "role_basis": "inferred",
+      "suggested_channel": "Reddit DM with wrotx.in link and pricing range",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit DM per author's explicit invite",
+        "url": "https://www.reddit.com/user/benched_carnivore/",
+        "source_url": "https://www.reddit.com/r/mumbai/comments/1qi2vsp/looking_for_a_website_agency/",
+        "checked_at": "2026-11-25",
+        "note": "Author asked agencies to DM portfolio website + pricing idea; user hides recent profile history."
+      },
+      "next_step": "DM wrotx.in plus transparent starting tiers (INR 6,999 websites / INR 14,999 custom web apps) and ask if they have any upcoming product sites.",
+      "cta": "Do you still need a Mumbai agency for your portfolio or upcoming product sites?",
+      "opener": "Saw your r/mumbai post looking for an agency for your portfolio and custom SaaS product websites. We are WrotX (wrotx.in) in Mumbai—websites start at INR 6,999 and custom web apps at INR 14,999 with full code ownership. Do you still need a Mumbai agency for your portfolio or upcoming product sites?",
+      "caution": "Posted 10 months ago (2026-01-20) and profile posts/comments are hidden, so earlier projects may already be completed.",
+      "dimensions": {
+        "pain_strength": 3,
+        "product_fit": 5,
+        "timing": 2,
+        "reachability": 4,
+        "evidence_quality": 3
+      }
+    },
+    {
+      "name": "Showcase Website Buyer (u/Salt_Let_1447)",
+      "entity_url": "https://www.reddit.com/user/Salt_Let_1447/",
+      "type": "Company",
+      "stage": "High intent",
+      "pain_signal": "Looking for a web developer to build a simple showcase website (no e-commerce or payments) with a reference design already picked.",
+      "evidence": "Posted in r/IndiaBusiness (2026-02-23): 'I’m currently looking for a web developer to create a showcase website (no e-commerce, no payments). I already have a reference website to use as inspiration for the design and structure. Please DM me'",
+      "evidence_status": "verified",
+      "why_fit": "Simple non-ecommerce showcase site with a reference design matches WrotX's 1-week, INR 6,999 website package.",
+      "why_now": "Explicit request for DMs; only 2 comments on the post and no OP resolution.",
+      "source_title": "Website create",
+      "source_url": "https://www.reddit.com/r/IndiaBusiness/comments/1rcqhs7/website_create/",
+      "source_type": "Reddit public post (r/IndiaBusiness)",
+      "signal_date": "2026-02-23",
+      "checked_at": "2026-11-25",
+      "target_role": "Business owner / project initiator",
+      "role_basis": "inferred",
+      "suggested_channel": "Reddit DM",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit DM per author's explicit invite",
+        "url": "https://www.reddit.com/user/Salt_Let_1447/",
+        "source_url": "https://www.reddit.com/r/IndiaBusiness/comments/1rcqhs7/website_create/",
+        "checked_at": "2026-11-25",
+        "note": "Author wrote 'Please DM me'; thread is 9 months old."
+      },
+      "next_step": "Ask for the reference website link and confirm whether the showcase site is still needed.",
+      "cta": "Are you still looking to get that showcase website built?",
+      "opener": "Saw your r/IndiaBusiness post about building a showcase website without e-commerce using your reference design. At WrotX (wrotx.in), we build fast business showcase sites in 1 week starting at INR 6,999 with full code handover. Are you still looking to get that showcase website built?",
+      "caution": "Posted 9 months ago (2026-02-23) with no business details or budget stated; check if still open.",
+      "dimensions": {
+        "pain_strength": 3,
+        "product_fit": 4,
+        "timing": 2,
+        "reachability": 4,
+        "evidence_quality": 3
+      }
+    },
+    {
+      "name": "Real Estate Venture (u/name_charlie25)",
+      "entity_url": "https://www.reddit.com/user/name_charlie25/",
+      "type": "Company",
+      "stage": "Trigger present",
+      "pain_signal": "Launching a new real estate venture and seeking an interactive website launched within 7-10 days.",
+      "evidence": "Posted in r/Bangalorestartups (2026-01-14) asking about feasibility of launching an interactive website for a new real estate venture in 7-10 days and connecting with professionals.",
+      "evidence_status": "verified",
+      "why_fit": "WrotX delivers fast business websites in 1 week (7 days), matching their tight launch timeline.",
+      "why_now": "Posted with an urgent launch timeline and never marked the thread solved, though age is a major caveat.",
+      "source_title": "Looking for a web developer",
+      "source_url": "https://www.reddit.com/r/Bangalorestartups/comments/1qcv4tj/looking_for_a_web_developer/",
+      "source_type": "Reddit public post (r/Bangalorestartups)",
+      "signal_date": "2026-01-14",
+      "checked_at": "2026-11-25",
+      "target_role": "Real estate venture founder",
+      "role_basis": "inferred",
+      "suggested_channel": "Reddit DM or thread check",
+      "contact_route": {
+        "status": "verified",
+        "label": "Reddit thread / profile DM",
+        "url": "https://www.reddit.com/r/Bangalorestartups/comments/1qcv4tj/looking_for_a_web_developer/",
+        "source_url": "https://www.reddit.com/r/Bangalorestartups/comments/1qcv4tj/looking_for_a_web_developer/",
+        "checked_at": "2026-11-25",
+        "note": "Public thread open; user profile has 18+ interstitial and hidden post history."
+      },
+      "next_step": "Verify whether the real estate venture launched a site or needs a refresh/portal.",
+      "cta": "Did your real estate venture end up launching its website, or are you still looking for help?",
+      "opener": "Saw your r/Bangalorestartups post about launching an interactive website for your real estate venture in 7-10 days. At WrotX (wrotx.in), we launch fast mobile websites in 1 week with WhatsApp lead capture. Did your real estate venture end up launching its website, or are you still looking for help?",
+      "caution": "Posted 10 months ago (2026-01-14) with 43 developer comments and hidden user history; likely already launched.",
+      "dimensions": {
+        "pain_strength": 3,
+        "product_fit": 4,
+        "timing": 2,
+        "reachability": 3,
+        "evidence_quality": 3
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "title": "Instagram-only & WhatsApp-first reliance",
+      "count": 1,
+      "insight": "Small Indian sellers operate on Instagram until customers ask for a browsable catalog/website, at which point upfront agency pricing feels intimidating."
+    },
+    {
+      "title": "Fast-turnaround & fixed-budget sensitivity",
+      "count": 3,
+      "insight": "Indian founders repeatedly ask for 1-week delivery, static/showcase sites in the INR 5k-10k range, and upfront portfolio + pricing clarity."
+    },
+    {
+      "title": "WhatsApp-connected B2B workflows",
+      "count": 1,
+      "insight": "Traditional SMBs (like manufacturing) don't just want brochure pages—they ask for RFQ catalogs with WhatsApp notifications and simple admin control."
+    }
+  ],
+  "outreach_plan": {
+    "angle": "Lead with transparency (wrotx.in, INR 6,999 starting tier, 1-week delivery, full code handover) and check whether the need is still open before pitching.",
+    "first_step": "Message u/Gloomy_Fly3214 (manufacturing B2B portal) and u/Stunning_Stop_276 (Nov 24 Instagram-only seller) first, as they have the clearest unresolved pain and recent/specific need.",
+    "follow_up": "Send portfolio + pricing DMs to u/notyourdaddy_69 and u/benched_carnivore to check for active or upcoming static/product website work.",
+    "success": "A confirmed reply clarifying whether they still lack a website and are open to a quick scope/quote."
+  },
+  "limits": [
+    "All 6 qualified signals come from public Reddit threads rather than local Google Maps business listings; Google Maps no-website prospecting requires the separate google-maps-scraper skill (`--no-website`).",
+    "Excluded 10 inspected candidates: u/Shivamgiri22 (2026-11-23 Madhya Pradesh SME — explicitly closed submissions), Studio Megha Agrawal (now has studiomeghaagrawal.com), Leo Motors Punjab (now has leomotors.in), u/Rare_Imagination6249 (marked REQUIREMENT COMPLETED), u/Perfect-Ad3758 (existing partial Shopify store), u/SmoothTree696 (existing WordPress setup), two deleted food/clothing brand posts (1rzygb7, 1rpu0sa), and two seller/agency posts (u/Ok_Clerk_105, u/ZainWebTech).",
+    "Four of the six included Reddit posts are 5-10 months old and several authors hide profile history, so freshness must be confirmed in the first message.",
+    "Public search on X and LinkedIn did not yield inspectable direct post URLs in this run."
+  ]
+}

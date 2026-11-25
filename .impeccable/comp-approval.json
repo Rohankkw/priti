@@ -1,0 +1,37 @@
+{
+  "title": "Approve a north-star composition for Priti Travels Hub",
+  "question": "Pick one of the three hero + quick-search compositions (or tell us what to carry forward, combine, or adjust) before we lock the spatial spec and start coding.",
+  "options": [
+    {
+      "id": "comp-1",
+      "label": "Comp 1 — Balanced Cinema Split",
+      "thesis": "Classic documentary split: monumental UDAIPUR stack left, equal-height glass state cards with region subtitles right, overlapping dark-glass Quick Search Bar.",
+      "palette": ["#0B1220", "#FF9933", "#F4B942", "#F7F3EC"],
+      "materials": ["70mm film grain", "frosted glass cards", "warm gold & saffron accents"],
+      "viewport": "Left UDAIPUR condensed display + 2-line copy + bookmark/Discover Location; right 4 equal portrait cards with subtitles; centered glass search dock.",
+      "risk": "Most balanced and familiar layout; less editorial typography contrast without an italic serif subhead.",
+      "comp": ".impeccable/mocks/comp-1.png"
+    },
+    {
+      "id": "comp-2",
+      "label": "Comp 2 — Serif-Paired Documentary Slate",
+      "thesis": "Pairs monumental condensed UDAIPUR with Playfair Display italic ('City of Dawn & Marble'), saffron active card border, and Popular Destinations peeking into #F7F3EC.",
+      "palette": ["#0B1220", "#FF9933", "#F4B942", "#F7F3EC"],
+      "materials": ["70mm film grain", "italic serif accent", "saffron-rimmed active glass card"],
+      "viewport": "Left UDAIPUR + italic serif subtitle + pin label; right state card rail with active saffron rim; anchored search dock above Popular Destinations.",
+      "risk": "Slightly denser left column at smaller laptop heights if description wraps past 2 lines.",
+      "comp": ".impeccable/mocks/comp-2.png"
+    },
+    {
+      "id": "comp-3",
+      "label": "Comp 3 — Hairline & Stepped Depth Deck",
+      "thesis": "Vertical saffron editorial hairline framing the left hero block paired with a stepped depth cascade of tall destination cards on the right.",
+      "palette": ["#0B1220", "#FF9933", "#F4B942", "#F7F3EC"],
+      "materials": ["vertical saffron hairline", "stepped glass card cascade", "split architectural search bar"],
+      "viewport": "Hairline-anchored UDAIPUR left; staggered descending-height card deck right; compact segmented Quick Search Bar overlapping #F7F3EC.",
+      "risk": "Stepped card heights require tighter responsive breakpoints on tablet/mobile.",
+      "comp": ".impeccable/mocks/comp-3.png"
+    }
+  ],
+  "steer": true
+}

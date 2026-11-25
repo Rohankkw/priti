@@ -1,0 +1,17 @@
+# Surface Brief: Priti Travels Hub Landing Template
+
+- **Scope & Mode:** Persuade (domestic luxury & bespoke Indian travel landing page template)
+- **Audience:** Luxury & bespoke concierge travellers seeking tailor-made heritage, wellness, and experiential domestic stays across India.
+- **Job & Primary Action:** Feel the documentary cinema of Indian regions immediately and convert via Quick Search Bar ("Find Trips"), "Plan My Trip", "Discover Location", or WhatsApp/Enquiry modal.
+- **Constraints:** React + Vite + Tailwind CSS, GSAP + ScrollTrigger, Lenis, React Three Fiber, Framer Motion; 17 ordered sections; all content/images in editable JSON/config; `prefers-reduced-motion` and WebGL static fallback.
+
+## Direction contract
+
+- **THESIS:** Priti Travels Hub frames domestic Indian travel as a live 70mm travel documentary where each region commands the full viewport rather than a generic package brochure grid.
+- **OWN-WORLD:** Deep midnight navy (`#0B1220`) ground alternating with warm off-white (`#F7F3EC`) editorial chapters, sunset saffron (`#FF9933`) and warm gold (`#F4B942`) film accents, sparing emerald (`#138808`), condensed display lettering (`Bebas Neue`), `Inter` UI copy, `Playfair Display` italic accents, subtle film-grain, soft vignette, and dark gradient legibility scrims.
+- **STORY:** A discerning traveller opens on Udaipur's lakeside twilight, flips through curated Indian states in the hero card rail, filters a journey in the glass quick search bar, explores regions on the 3D India globe, and books or requests a bespoke itinerary via WhatsApp or the validated concierge modal.
+- **FIRST VIEWPORT:** Transparent top navbar (globe/compass logo + `PRITI TRAVELS HUB`, 6 nav links, search icon, `Plan My Trip` CTA); full-bleed Udaipur City Palace dusk backdrop with subtle film grain and directional scrim; left column holding location label (`Rajasthan · India`), monumental condensed `UDAIPUR` headline, short documentary description, bookmark button, and `Discover Location` outline CTA; right column holding portrait glass-bordered state carousel cards (`Rajasthan`, `Kerala`, `Himachal Pradesh`, `Goa`, etc.) plus circular prev/next arrows, progress line, and slide counter (`01 / 09`); bottom edge anchored by the overlapping glass Quick Search Bar (Destination, Dates, Travellers, Budget, `Find Trips`).
+- **FORM:** Full-bleed photographic documentary hero + interactive state card rail + overlapping glass quick-search dock, followed by alternating midnight-navy and off-white editorial chapters (`seed: none (pinned)` — "a full-bleed photographic hero with a huge condensed title on the left, a row of destination cards on the right, and a minimal transparent navbar... deep midnight navy (#0B1220), sunset saffron (#FF9933), warm gold (#F4B942), off-white (#F7F3EC), and a touch of emerald (#138808)... tall condensed display font for hero titles (Bebas Neue / Anton / Oswald), elegant sans for body (Inter / Manrope), and an optional italic serif for accent words (Playfair Display)").
+- **Approved Comp:** `.impeccable/mocks/comp-3.png`
+- **Signature Hero Interaction:** Clicking any side destination card expands that card smoothly to fill the full hero backdrop (short FLIP / clip-path fill animation) while revealing the new destination title letter-by-letter and updating description & slide counter.
+- **FINISH:** unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
